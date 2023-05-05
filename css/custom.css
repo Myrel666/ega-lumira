@@ -1,0 +1,301 @@
+.nav-link:hover {
+  color: #dfac02;
+}
+
+.nav-link:focus {
+  color: #dfac02 !important;
+}
+
+.btn-primary {
+  background: #f2c94c;
+  border: none;
+  padding: 10px 40px 10px 40px;
+  color: black;
+  border-radius: 42px;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background: #dfac02;
+  border: none;
+}
+
+.btn-primary:active {
+  background: #dfac02 !important;
+  border: none !important;
+}
+
+.btn-secondary {
+  background: #f2c94c;
+  border: none;
+  padding: 6px 16px 6px 16px;
+  color: black;
+  border-radius: 42px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-secondary:hover {
+  background: #dfac02;
+  border: none;
+}
+
+.btn-secondary:active {
+  background: #dfac02 !important;
+  border: none !important;
+}
+.section-1 {
+  padding: 12em 5em 0em 5em;
+  background: rgb(26, 82, 169);
+  background: -moz-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a52a9",endColorstr="#2b77eb",GradientType=1);
+  background-size: cover;
+}
+
+.section-1 h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.section-1 p {
+  font-family: "Nunito";
+  font-weight: 400;
+  color: white;
+}
+
+.section-2 {
+  padding: 5em 1em;
+}
+
+.section-2 h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
+.section-2 h6 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: #2b77eb;
+}
+
+.section-2 h5 {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 27px;
+}
+
+.section-2 p {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.nav-link {
+  color: white;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.section-3 {
+  padding: 7em 1em;
+  background: rgb(26, 82, 169);
+  background: -moz-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a52a9",endColorstr="#2b77eb",GradientType=1);
+}
+
+.section-3 h6,
+h1,
+h5 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.section-3 p {
+  font-family: "Nunito";
+  font-weight: 400;
+  color: white;
+  text-align: justify;
+}
+
+.section-4 {
+  padding: 5em 1em;
+  background: #f1f4fa;
+}
+
+.section-4 h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900 !important;
+  color: black;
+}
+
+.section-4 h6 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: #2b77eb;
+}
+
+.section-4 h5 {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-4 p {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.section-5 {
+  padding: 7em 1em;
+  background: rgb(26, 82, 169);
+  background: -moz-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  background: linear-gradient(
+    287deg,
+    rgba(26, 82, 169, 1) 31%,
+    rgba(43, 119, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a52a9",endColorstr="#2b77eb",GradientType=1);
+}
+
+.section-5 h6,
+h1,
+h5 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: white;
+}
+
+.section-5 p {
+  font-family: "Nunito";
+  font-weight: 400;
+  color: white;
+  text-align: justify;
+}
+
+.copyright a {
+  color: #2b77eb;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 6px 8px rgba(188, 188, 188, 0.8);
+}
+
+.section-6 {
+  padding: 4em 1em;
+  background: #f1f4fa;
+}
+
+.section-6 h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900 !important;
+  color: black;
+}
+
+.section-6 h6 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: #2b77eb;
+}
+
+.section-6 h5 {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-6 p {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.section-8 {
+  padding:  0em 0em 0em 12em;;
+  background: #2B77EB;
+  background-size: cover;
+  
+}
+
+.section-8 h1 {
+  font-family: "Avenir", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 54px;
+}
+
+.section-8 p {
+  font-family: "Nunito";
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+}
+
+.section-9 {
+  padding: 4em 4em 5.4em 12em;
+}
+
+.slide {
+
+}
